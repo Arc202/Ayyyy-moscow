@@ -13,14 +13,17 @@ farted from the aft portion of a unicorn. It's pure magic.
 var reverse = require('ascii-art-reverse');
 
 var art = [
-  '    ("-^-/")  ',
-  "    `o__o' ]  ",
-  "    (_Y_) _/  ",
-  "  _..`--'-.`, ",
-  " (__)_,--(__) ",
-  "     7:   ; 1 ",
-  "   _/,`-.-' : ",
-  "  (_,)-~~(_,) "
+ 
+  "░░░░░░███████ ]▄▄▄▄▄▄▄▄▃"
+"▂▄▅█████████▅▄▃▂"
+"I███████████████████]."
+"◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤..."
+  _
+
+  " 
+  "
+  "   _/,`-.' ,
+  "  (_,)
 ].join('\n')
 
 console.log(reverse(art));
